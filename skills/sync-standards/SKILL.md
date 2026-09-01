@@ -14,8 +14,10 @@ The standards live in the `superbuilders/playcademy-skills` repo under `standard
 Fetch them by running the colocated script:
 
 ```bash
-bash ${CLAUDE_SKILL_DIR}/scripts/fetch-standards.sh
+bash scripts/fetch-standards.sh
 ```
+
+Resolve `scripts/fetch-standards.sh` relative to this skill's directory.
 
 The output is the **standards content** — use it verbatim in the steps below.
 
