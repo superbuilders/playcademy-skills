@@ -14,8 +14,10 @@ Do not narrate what you're about to do. Run the commands silently and only speak
 ### 1. Run the update
 
 ```bash
-bash ${CLAUDE_SKILL_DIR}/scripts/update.sh
+bash scripts/update.sh
 ```
+
+Resolve `scripts/update.sh` relative to this skill's directory.
 
 This single script handles everything: snapshots the lockfile, detects installed agents, runs the install, and compares hashes. The last lines of output will be the change report (e.g. `new:playcademy-test` or `updated:playcademy-update-standards`). If there are no such lines, everything is already up to date.
 
